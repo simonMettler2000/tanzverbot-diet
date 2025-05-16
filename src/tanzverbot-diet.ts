@@ -39,6 +39,7 @@ export function calcDateOnDiet(
     dailyCaloriesOnDiet += calories * servings;
   }
   let dailyCaloriesBasicMetabolicRate = 0;
+  //TODO, etwas hier. Noch nicht sicher was genau, aber es fühlt sich falsch an.
   if (sex == Sex.Male) {
     dailyCaloriesBasicMetabolicRate = Math.ceil(
       // Harris-Benedict-Formula (Male)
